@@ -12,4 +12,7 @@ public class Email {
         }
         this.endereco = endereco;
     }
+    public String getEndereco() {
+        return endereco;
+    }
 }

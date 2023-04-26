@@ -4,11 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49cbf33b-7c83-4dd4-a0f4-12f6f724a0bf" name="Changes" comment="Projeto do curso">
-      <change afterPath="$PROJECT_DIR$/src/main/java/escola/Aluno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/escola/CPF.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/escola/Email.java" afterDir="false" />
+    <list default="true" id="49cbf33b-7c83-4dd4-a0f4-12f6f724a0bf" name="Changes" comment="Domain Model - Entidades vs Value Objects">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/escola/Indicacao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/escola/Telefone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/escola/EmailTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/escola/TelefoneTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/escola/Aluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/escola/Aluno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/escola/Email.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/escola/Email.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +24,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="module-info" />
         <option value="Class" />
       </list>
     </option>
@@ -37,6 +44,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "onboarding.tips.debug.path": "C:/Dev/workspaces/ws-cursos/escola/src/main/java/br/com/alura/Main.java"
   }
 }]]></component>
@@ -44,6 +52,29 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="escola" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="EmailTest.naoDeveriaCriarEmailsComEnderecosInvalidos" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="escola" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="escola.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="escola" />
+      <option name="MAIN_CLASS_NAME" value="escola.EmailTest" />
+      <option name="METHOD_NAME" value="naoDeveriaCriarEmailsComEnderecosInvalidos" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.EmailTest.naoDeveriaCriarEmailsComEnderecosInvalidos" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -61,12 +92,20 @@
       <option name="project" value="LOCAL" />
       <updated>1682531736795</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Domain Model - Entidades vs Value Objects">
+      <created>1682533968601</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1682533968602</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Projeto do curso" />
-    <option name="LAST_COMMIT_MESSAGE" value="Projeto do curso" />
+    <MESSAGE value="Domain Model - Entidades vs Value Objects" />
+    <option name="LAST_COMMIT_MESSAGE" value="Domain Model - Entidades vs Value Objects" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
