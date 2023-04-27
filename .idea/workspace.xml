@@ -4,10 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49cbf33b-7c83-4dd4-a0f4-12f6f724a0bf" name="Changes" comment="Domain Model - Aluno, email, indicacao, Telefone">
-      <change afterPath="$PROJECT_DIR$/src/main/java/escola/FabricaDeAluno.java" afterDir="false" />
+    <list default="true" id="49cbf33b-7c83-4dd4-a0f4-12f6f724a0bf" name="Changes" comment="Conceito de fábrica, no contexto do Clean Architecture.">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/escola/Indicacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/escola/Indicacao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/escola/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/escola/Aluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/escola/aluno/Aluno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/escola/CPF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/escola/aluno/CPF.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/escola/Email.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/escola/aluno/Email.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/escola/FabricaDeAluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/escola/aluno/FabricaDeAluno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/escola/Indicacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/escola/indicacao/Indicacao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/escola/Telefone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/escola/aluno/Telefone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/escola/EmailTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/escola/EmailTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/escola/TelefoneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/escola/TelefoneTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +62,7 @@
       <module name="escola" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="escola.*" />
+          <option name="PATTERN" value="br.com.alura.escola.aluno.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,20 +110,28 @@
       <option name="project" value="LOCAL" />
       <updated>1682548975102</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Conceito de fábrica, no contexto do Clean Architecture.">
+      <created>1682616993557</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1682616993558</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Projeto do curso" />
     <MESSAGE value="Domain Model - Entidades vs Value Objects" />
     <MESSAGE value="Domain Model - Aluno, email, indicacao, Telefone" />
-    <option name="LAST_COMMIT_MESSAGE" value="Domain Model - Aluno, email, indicacao, Telefone" />
+    <MESSAGE value="Conceito de fábrica, no contexto do Clean Architecture." />
+    <option name="LAST_COMMIT_MESSAGE" value="Conceito de fábrica, no contexto do Clean Architecture." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/br/com/alura/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/br/com/alura/escola/Main.java</url>
           <line>15</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
