@@ -4,17 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49cbf33b-7c83-4dd4-a0f4-12f6f724a0bf" name="Changes" comment="Domain Model - Entidades vs Value Objects">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/escola/Indicacao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/escola/Telefone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/escola/EmailTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/escola/TelefoneTest.java" afterDir="false" />
+    <list default="true" id="49cbf33b-7c83-4dd4-a0f4-12f6f724a0bf" name="Changes" comment="Domain Model - Aluno, email, indicacao, Telefone">
+      <change afterPath="$PROJECT_DIR$/src/main/java/escola/FabricaDeAluno.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/escola/Aluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/escola/Aluno.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/escola/Email.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/escola/Email.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/escola/Indicacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/escola/Indicacao.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +25,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
   <component name="ProjectId" id="2OyFEocg8Q2I3vDafRG1P0P2oSR" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -40,14 +36,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "onboarding.tips.debug.path": "C:/Dev/workspaces/ws-cursos/escola/src/main/java/br/com/alura/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Dev/workspaces/ws-cursos/escola/src/main/java/br/com/alura/Main.java&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="escola" />
@@ -99,13 +95,21 @@
       <option name="project" value="LOCAL" />
       <updated>1682533968602</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Domain Model - Aluno, email, indicacao, Telefone">
+      <created>1682548975102</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1682548975102</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Projeto do curso" />
     <MESSAGE value="Domain Model - Entidades vs Value Objects" />
-    <option name="LAST_COMMIT_MESSAGE" value="Domain Model - Entidades vs Value Objects" />
+    <MESSAGE value="Domain Model - Aluno, email, indicacao, Telefone" />
+    <option name="LAST_COMMIT_MESSAGE" value="Domain Model - Aluno, email, indicacao, Telefone" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
