@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49cbf33b-7c83-4dd4-a0f4-12f6f724a0bf" name="Changes" comment="Organização das classes em pacotes">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/escola/aluno/Aluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/escola/dominio/aluno/Aluno.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/escola/aluno/CPF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/escola/dominio/aluno/CPF.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/escola/aluno/Email.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/escola/dominio/aluno/Email.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/escola/aluno/FabricaDeAluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/escola/dominio/aluno/FabricaDeAluno.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/escola/aluno/Telefone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/escola/dominio/aluno/Telefone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/escola/indicacao/Indicacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/escola/dominio/indicacao/Indicacao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/escola/EmailTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/escola/EmailTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/escola/TelefoneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/escola/TelefoneTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="49cbf33b-7c83-4dd4-a0f4-12f6f724a0bf" name="Changes" comment="isolando a camada de dominio" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -138,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682626357547</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="isolando a camada de dominio">
+      <created>1682626828553</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1682626828553</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -147,7 +144,8 @@
     <MESSAGE value="Domain Model - Aluno, email, indicacao, Telefone" />
     <MESSAGE value="Conceito de fábrica, no contexto do Clean Architecture." />
     <MESSAGE value="Organização das classes em pacotes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Organização das classes em pacotes" />
+    <MESSAGE value="isolando a camada de dominio" />
+    <option name="LAST_COMMIT_MESSAGE" value="isolando a camada de dominio" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
