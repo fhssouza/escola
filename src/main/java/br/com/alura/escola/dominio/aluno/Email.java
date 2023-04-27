@@ -1,4 +1,4 @@
-package br.com.alura.escola.aluno;
+package br.com.alura.escola.dominio.aluno;
 
 //VALUE OBJECT - SÃO CONSIDERADOS IGUAIS, SE TODOS OS OS SEUS ATRIBUTOS TIVEREM VALORES IGUAIS
 public class Email {
