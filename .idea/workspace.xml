@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49cbf33b-7c83-4dd4-a0f4-12f6f724a0bf" name="Changes" comment="interface repository">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/escola/dominio/aluno/AlunoNaoEncontrado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/escola/infra/aluno/RepositorioDeAlunosComJDBC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/escola/infra/aluno/RepositorioDeAlunosEmMemoria.java" afterDir="false" />
+    <list default="true" id="49cbf33b-7c83-4dd4-a0f4-12f6f724a0bf" name="Changes" comment="implementações">
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/escola/aplicacao/indicacao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/escola/dominio/aluno/CifradorDeSenha.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/escola/infra/aluno/CifradorDeSenhaComMD5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/escola/dominio/aluno/Aluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/escola/dominio/aluno/Aluno.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/escola/dominio/aluno/CPF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/escola/dominio/aluno/CPF.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682627672728</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="implementações">
+      <created>1682631760922</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1682631760922</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -161,7 +167,8 @@
     <MESSAGE value="Organização das classes em pacotes" />
     <MESSAGE value="isolando a camada de dominio" />
     <MESSAGE value="interface repository" />
-    <option name="LAST_COMMIT_MESSAGE" value="interface repository" />
+    <MESSAGE value="implementações" />
+    <option name="LAST_COMMIT_MESSAGE" value="implementações" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
